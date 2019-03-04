@@ -13,15 +13,15 @@ body	{
 }
 h3	{
 	color: #3498db;
-	letter-spacing: 2px;
+	letter-spacing: .2rem;
 	text-transform: uppercase;
 }
 h2	{
 	color: #2c3e50;
-	font-size: 40px;
+	font-size: 2rem;
 }
 p 	{
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 p:first-of-type {
@@ -30,4 +30,9 @@ p:first-of-type {
 }
 div	{
 	padding-bottom: 20px;
+}
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 }
